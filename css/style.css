@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 110%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2%;
+  margin-bottom: 3%;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: darkgray;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 5%;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #bbb;
+}
+
+#projects,
+#contact {
+  background-color: #ddd;
+}
+
+#bio,
+#projects,
+#about,
+#contact {
+  text-align: center;
+}
+
+footer {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 2%;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: darkgray;
+  color: white;
+}
