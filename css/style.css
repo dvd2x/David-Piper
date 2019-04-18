@@ -47,13 +47,15 @@ nav {
   color: white;
 }
 
-header h1 {
+#hero,
+h1 {
   text-align: center;
   margin-top: 10%;
   padding: 7%;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 40px;
+  background-color: white;
 }
 
 section {
@@ -94,4 +96,32 @@ footer,
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #nav ul {
+    margin: 0 auto;
+    width: 95%;
+    padding-top: 4%;
+  }
+  #nav p {
+    float: right;
+    left: 50%;
+    margin: 0 auto;
+    width: 87%;
+  }
+  #main {
+    width: 740px;
+  }
+  #main-content {
+    width: 450px;
+    float: left;
+  }
+  #container {
+    width: 200px;
+    float: right;
+  }
+  .content {
+    width: 160px;
+  }
 }
