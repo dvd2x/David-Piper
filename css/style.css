@@ -6,6 +6,31 @@ body {
   max-width: 110%;
   margin-left: 0;
   margin-right: 0;
+  margin-top: 4%;
+}
+
+nav ul {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  float: right;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 8px;
+}
+
+nav p {
+  float: left;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+nav li {
+  display: inline;
 }
 
 nav {
@@ -18,13 +43,17 @@ nav {
   border: none;
   outline: none;
   text-align: center;
-  background-color: darkgray;
+  background-color: black;
   color: white;
 }
 
-header {
+header h1 {
   text-align: center;
-  padding: 5%;
+  margin-top: 10%;
+  padding: 7%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
 }
 
 section {
@@ -41,8 +70,11 @@ section {
 #bio,
 #projects,
 #about,
-#contact {
+#contact,
+p {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
 footer {
@@ -54,6 +86,12 @@ footer {
   border: none;
   outline: none;
   text-align: center;
-  background-color: darkgray;
+  background-color: black;
   color: white;
+}
+
+footer,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
