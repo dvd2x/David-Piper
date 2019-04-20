@@ -20,6 +20,7 @@ nav a {
   color: white;
   text-decoration: none;
   padding-right: 8px;
+  cursor: pointer;
 }
 
 nav p {
@@ -47,10 +48,11 @@ nav {
   color: white;
 }
 
+/* HERO */
 #hero,
 h1 {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 4%;
   padding: 7%;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -58,9 +60,17 @@ h1 {
   background-color: white;
 }
 
+#hero,
+h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+}
+
+/* SECTIONS */
 section {
   min-height: 200px;
-  padding: 6% 0;
+  padding: 2% 0;
   background-color: #bbb;
 }
 
@@ -74,11 +84,59 @@ section {
 #about,
 #contact,
 p {
-  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
 }
 
+/* BIO */
+#bio {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* PROJECTS */
+#projects {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+#quiz-app {
+  float: left;
+  padding-right: 3%;
+  padding-bottom: 2%;
+  width: 550px;
+}
+
+.description li {
+  display: inline;
+  list-style: none;
+}
+
+/* ABOUT */
+#about {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* CONTACT */
+#contact {
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#contact ul {
+  list-style: none;
+}
+
+#contact li {
+  display: inline;
+}
+
+#contact-icons ul {
+  text-align: center;
+}
+
+/* FOOTER */
 footer {
   overflow: hidden;
   position: fixed;
@@ -98,30 +156,25 @@ p {
   font-size: 20px;
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 720px) {
   #nav ul {
+    display: block;
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
     padding-top: 4%;
   }
   #nav p {
+    display: block;
     float: right;
-    left: 50%;
     margin: 0 auto;
-    width: 87%;
+    width: 100%;
   }
-  #main {
-    width: 740px;
+
+  #hero h1 {
+    font-size: 40px;
   }
-  #main-content {
-    width: 450px;
-    float: left;
-  }
-  #container {
-    width: 200px;
-    float: right;
-  }
-  .content {
-    width: 160px;
+
+  #quiz-app {
+    width: 320px;
   }
 }

@@ -14,6 +14,12 @@
       type="text/css"
       href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js\script.js"></script>
     <title>David Piper</title>
   </head>
   <body>
@@ -21,19 +27,67 @@
       <nav role="navigation" id="nav">
         <p>David Piper</p>
         <ul>
-          <li><a href="#">link </a> |</li>
-          <li><a href="#">link </a> |</li>
-          <li><a href="#">link </a> |</li>
-          <li><a href="#">link </a></li>
+          <li  class="nav-subject active"><a class="link scroll" href="#hero">Bio </a> |</li>
+          <li class="nav-subject"><a class="link scroll"  href="#projects"> Projects </a> |</li>
+          <li class="nav-subject"><a class="link scroll"  href="#about"> About </a> |</li>
+          <li class="nav-subject"><a class="link scroll"  href="#contact"> Contact </a></li>
         </ul>
       </nav>
     </header>
     <main role="main">
-      <section id="hero"><h1>HERO</h1></section>
-      <section id="bio">BIO</section>
-      <section id="projects">PROJECTS</section>
-      <section id="about">ABOUT</section>
-      <section id="contact">CONTACT</section>
+      <section id="hero">
+        <h1>Greetings</h1>
+        <img src="img\alter-ego.png" alt="my alter ego" />
+        <h2>UI/UX and Full-Stack Developer</h2>
+      </section>
+      <section id="bio">
+        <h2>Bio</h2>
+        <p>
+          I’m David Piper and I am a Full-Stack Web Application Developer and
+          Software Developer, currently living in Detroit, MI. I spend most of
+          my days with perfecting my skills in HTML, CSS, jQuery/JavaScript,
+          digital accessibility, user experience and visual design
+        </p>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+      </div>
+      <div class="my-projects">
+          <img src="img\quiz-app.png" alt="quiz app" id="quiz-app">          
+      </div>
+        <div class="description">
+          <ul>
+            <li><b>Project Title:</b> 8th Grade Math Quiz App</li><br><br>
+            <li><b>Description:</b> This is a Math Quiz for both Adults and children, in it you will be given 10 questions that will test your knowledge on math that a typical 8th grader will receive at school.</li><br><br>
+            <li><b>Technologies:</b> HTML5, CSS, JavaScript, jQuery</li><br><br>
+            <li><b>Live Link:</b> https://dvd2x.github.io/quiz-app/</li><br><br>
+            <li><b>Link Repo:</b> https://github.com/dvd2x/quiz-app</li>
+          </ul>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          As a child I broke all my toys and the only reason why I broke all my
+          toys is because I loved to see how thing worked and I have tried to
+          make better according to my imagination. So, it made since now years
+          later that I graduated from Delaware State University with Electrical
+          Engineering degrees. I have always accepted challenges with open arms
+          this is why I am now a full-stack developer and because I have always
+          had a curiosity of building and understanding the small but very
+          significant parts that make things go.
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>I am currently looking for new opportunities and you can contact me by clicking on the links below.</p>
+        <div id="contact-icons">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/david2x/"><img src="img\icons8-linkedin-96.png" alt="linkedin icon" sizes="96px"></a></li>
+            <li><a href="https://github.com/dvd2x"><img src="img\icons8-github-96.png" alt="github icon" sizes="96px"></a></li></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox"><img src="img\icons8-secured-letter-96.png" alt="linkedin icon" sizes="96px"></a></li></li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>FOOTER</footer>
   </body>
